@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Bill data (extracted output, archives) - not source, may contain account data
+**/input_bills/
+**/bill_archive/
+**/output/
+heco_bill_pdfs/
+
+# PDF files
+*.pdf
+
+# Local Claude settings
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+.DS_Store

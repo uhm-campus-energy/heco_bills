@@ -1,0 +1,1 @@
+\copy heco.kwh(contract, date_end, kwh, "cost$", days) FROM 'heco_collective/heco_collective_bill/output/electric_bills_data.csv' CSV HEADER;
